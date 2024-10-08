@@ -1,0 +1,2509 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt"
+    message: |
+      The system is: Darwin - 24.0.0 - arm64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library 'System' not found
+      cc: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is AppleClang, found in:
+        /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/3.30.3/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library 'c++' not found
+      c++: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/3.30.3/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-XPu8N3"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-XPu8N3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-XPu8N3'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_735b4/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_735b4.dir/build.make CMakeFiles/cmTC_735b4.dir/build
+        Building C object CMakeFiles/cmTC_735b4.dir/CMakeCCompilerABI.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_735b4.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_735b4.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_735b4.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeCCompilerABI.c
+        Apple clang version 16.0.0 (clang-1600.0.26.3)
+        Target: arm64-apple-darwin24.0.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        cc: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.0 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-XPu8N3 -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_735b4.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_735b4.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-XPu8N3 -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_735b4.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 16.0.0 (clang-1600.0.26.3) default target arm64-apple-darwin24.0.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/usr/lib/clang/16/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_735b4
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_735b4.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_735b4.dir/CMakeCCompilerABI.c.o -o cmTC_735b4
+        Apple clang version 16.0.0 (clang-1600.0.26.3)
+        Target: arm64-apple-darwin24.0.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_735b4 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_735b4.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1115.7.3
+        BUILD 13:29:00 Aug  9 2024
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.8)
+        Library search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/lib/swift
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/System/Library/Frameworks
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:113 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Library/Developer/CommandLineTools/usr/lib/clang/16/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include]
+          add: [/Library/Developer/CommandLineTools/usr/include]
+        end of search list found
+        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/16/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/16/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+        implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/16/include;/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-XPu8N3']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_735b4/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_735b4.dir/build.make CMakeFiles/cmTC_735b4.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_735b4.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_735b4.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_735b4.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_735b4.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.3)]
+        ignore line: [Target: arm64-apple-darwin24.0.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [cc: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.0 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-XPu8N3 -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_735b4.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_735b4.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-XPu8N3 -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_735b4.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 16.0.0 (clang-1600.0.26.3) default target arm64-apple-darwin24.0.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/16/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_735b4]
+        ignore line: [/opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_735b4.dir/link.txt --verbose=1]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_735b4.dir/CMakeCCompilerABI.c.o -o cmTC_735b4]
+        ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.3)]
+        ignore line: [Target: arm64-apple-darwin24.0.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_735b4 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_735b4.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [15.0.0] ==> ignore
+          arg [15.0] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-linkonceodr-outlining] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_735b4] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_735b4.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'C': /Library/Developer/CommandLineTools/usr/bin/ld
+        Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/lib/swift]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/lib/swift]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/System/Library/Frameworks]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/lib/swift]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the C compiler's linker: "/Library/Developer/CommandLineTools/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1115.7.3
+      BUILD 13:29:00 Aug  9 2024
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.8)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-See7KU"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-See7KU"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-See7KU'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cc0fc/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cc0fc.dir/build.make CMakeFiles/cmTC_cc0fc.dir/build
+        Building CXX object CMakeFiles/cmTC_cc0fc.dir/CMakeCXXCompilerABI.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_cc0fc.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_cc0fc.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_cc0fc.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Apple clang version 16.0.0 (clang-1600.0.26.3)
+        Target: arm64-apple-darwin24.0.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        c++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.0 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-See7KU -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_cc0fc.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_cc0fc.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-See7KU -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_cc0fc.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 16.0.0 (clang-1600.0.26.3) default target arm64-apple-darwin24.0.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1
+         /Library/Developer/CommandLineTools/usr/lib/clang/16/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_cc0fc
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc0fc.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_cc0fc.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_cc0fc
+        Apple clang version 16.0.0 (clang-1600.0.26.3)
+        Target: arm64-apple-darwin24.0.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_cc0fc -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_cc0fc.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1115.7.3
+        BUILD 13:29:00 Aug  9 2024
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.8)
+        Library search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/lib/swift
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/System/Library/Frameworks
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:113 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1]
+          add: [/Library/Developer/CommandLineTools/usr/lib/clang/16/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include]
+          add: [/Library/Developer/CommandLineTools/usr/include]
+        end of search list found
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/16/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/16/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+        implicit include dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1;/Library/Developer/CommandLineTools/usr/lib/clang/16/include;/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-See7KU']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cc0fc/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cc0fc.dir/build.make CMakeFiles/cmTC_cc0fc.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_cc0fc.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_cc0fc.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_cc0fc.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_cc0fc.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.3)]
+        ignore line: [Target: arm64-apple-darwin24.0.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [c++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.0 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-See7KU -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_cc0fc.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_cc0fc.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-See7KU -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_cc0fc.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 16.0.0 (clang-1600.0.26.3) default target arm64-apple-darwin24.0.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/16/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_cc0fc]
+        ignore line: [/opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc0fc.dir/link.txt --verbose=1]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_cc0fc.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_cc0fc]
+        ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.3)]
+        ignore line: [Target: arm64-apple-darwin24.0.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_cc0fc -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_cc0fc.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [15.0.0] ==> ignore
+          arg [15.0] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-linkonceodr-outlining] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_cc0fc] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_cc0fc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'CXX': /Library/Developer/CommandLineTools/usr/bin/ld
+        Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/lib/swift]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/lib/swift]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+        implicit objs: []
+        implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/lib/swift]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the CXX compiler's linker: "/Library/Developer/CommandLineTools/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1115.7.3
+      BUILD 13:29:00 Aug  9 2024
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.8)
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-AzmnIK"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-AzmnIK"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-AzmnIK'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0bb3b/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0bb3b.dir/build.make CMakeFiles/cmTC_0bb3b.dir/build
+        Building C object CMakeFiles/cmTC_0bb3b.dir/test_mpi.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_0bb3b.dir/test_mpi.c.o -MF CMakeFiles/cmTC_0bb3b.dir/test_mpi.c.o.d -o CMakeFiles/cmTC_0bb3b.dir/test_mpi.c.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-AzmnIK/test_mpi.c
+        Linking C executable cmTC_0bb3b
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0bb3b.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0bb3b.dir/test_mpi.c.o -o cmTC_0bb3b  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-4gFGk9"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-4gFGk9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-4gFGk9'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cba25/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cba25.dir/build.make CMakeFiles/cmTC_cba25.dir/build
+        Building CXX object CMakeFiles/cmTC_cba25.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_cba25.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_cba25.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_cba25.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-4gFGk9/test_mpi.cpp
+        Linking CXX executable cmTC_cba25
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cba25.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_cba25.dir/test_mpi.cpp.o -o cmTC_cba25  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-9Dn4Ov"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-9Dn4Ov"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-9Dn4Ov'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_50974/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_50974.dir/build.make CMakeFiles/cmTC_50974.dir/build
+        Building CXX object CMakeFiles/cmTC_50974.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_50974.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_50974.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_50974.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-9Dn4Ov/test_mpi.cpp
+        Linking CXX executable cmTC_50974
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50974.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_50974.dir/test_mpi.cpp.o -o cmTC_50974  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-LPRdDn"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-LPRdDn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-LPRdDn'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_54acd/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_54acd.dir/build.make CMakeFiles/cmTC_54acd.dir/build
+        Building C object CMakeFiles/cmTC_54acd.dir/test_mpi.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_54acd.dir/test_mpi.c.o -MF CMakeFiles/cmTC_54acd.dir/test_mpi.c.o.d -o CMakeFiles/cmTC_54acd.dir/test_mpi.c.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-LPRdDn/test_mpi.c
+        Linking C executable cmTC_54acd
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54acd.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_54acd.dir/test_mpi.c.o -o cmTC_54acd  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-OABmxs"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-OABmxs"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-OABmxs'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e4db7/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e4db7.dir/build.make CMakeFiles/cmTC_e4db7.dir/build
+        Building CXX object CMakeFiles/cmTC_e4db7.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_e4db7.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_e4db7.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_e4db7.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-OABmxs/test_mpi.cpp
+        Linking CXX executable cmTC_e4db7
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4db7.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e4db7.dir/test_mpi.cpp.o -o cmTC_e4db7  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-3uehyI"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-3uehyI"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-3uehyI'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f1817/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f1817.dir/build.make CMakeFiles/cmTC_f1817.dir/build
+        Building CXX object CMakeFiles/cmTC_f1817.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_f1817.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_f1817.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_f1817.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-3uehyI/test_mpi.cpp
+        Linking CXX executable cmTC_f1817
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1817.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f1817.dir/test_mpi.cpp.o -o cmTC_f1817  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-dZf4Xz"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-dZf4Xz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-dZf4Xz'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4d2f4/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4d2f4.dir/build.make CMakeFiles/cmTC_4d2f4.dir/build
+        Building C object CMakeFiles/cmTC_4d2f4.dir/test_mpi.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_4d2f4.dir/test_mpi.c.o -MF CMakeFiles/cmTC_4d2f4.dir/test_mpi.c.o.d -o CMakeFiles/cmTC_4d2f4.dir/test_mpi.c.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-dZf4Xz/test_mpi.c
+        Linking C executable cmTC_4d2f4
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d2f4.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4d2f4.dir/test_mpi.c.o -o cmTC_4d2f4  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-Ghcsyc"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-Ghcsyc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-Ghcsyc'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_acf72/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_acf72.dir/build.make CMakeFiles/cmTC_acf72.dir/build
+        Building CXX object CMakeFiles/cmTC_acf72.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_acf72.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_acf72.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_acf72.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-Ghcsyc/test_mpi.cpp
+        Linking CXX executable cmTC_acf72
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_acf72.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_acf72.dir/test_mpi.cpp.o -o cmTC_acf72  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-VC6SPA"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-VC6SPA"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-VC6SPA'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b697d/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b697d.dir/build.make CMakeFiles/cmTC_b697d.dir/build
+        Building CXX object CMakeFiles/cmTC_b697d.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_b697d.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_b697d.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_b697d.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-VC6SPA/test_mpi.cpp
+        Linking CXX executable cmTC_b697d
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b697d.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b697d.dir/test_mpi.cpp.o -o cmTC_b697d  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-T9ShG3"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-T9ShG3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-T9ShG3'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d022c/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d022c.dir/build.make CMakeFiles/cmTC_d022c.dir/build
+        Building C object CMakeFiles/cmTC_d022c.dir/test_mpi.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_d022c.dir/test_mpi.c.o -MF CMakeFiles/cmTC_d022c.dir/test_mpi.c.o.d -o CMakeFiles/cmTC_d022c.dir/test_mpi.c.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-T9ShG3/test_mpi.c
+        Linking C executable cmTC_d022c
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d022c.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d022c.dir/test_mpi.c.o -o cmTC_d022c  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-sNCUc2"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-sNCUc2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-sNCUc2'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_32922/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_32922.dir/build.make CMakeFiles/cmTC_32922.dir/build
+        Building CXX object CMakeFiles/cmTC_32922.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_32922.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_32922.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_32922.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-sNCUc2/test_mpi.cpp
+        Linking CXX executable cmTC_32922
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32922.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_32922.dir/test_mpi.cpp.o -o cmTC_32922  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-Ds60DP"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-Ds60DP"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-Ds60DP'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_48506/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_48506.dir/build.make CMakeFiles/cmTC_48506.dir/build
+        Building CXX object CMakeFiles/cmTC_48506.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_48506.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_48506.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_48506.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-Ds60DP/test_mpi.cpp
+        Linking CXX executable cmTC_48506
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48506.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_48506.dir/test_mpi.cpp.o -o cmTC_48506  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-gC07oL"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-gC07oL"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-gC07oL'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_53b30/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_53b30.dir/build.make CMakeFiles/cmTC_53b30.dir/build
+        Building C object CMakeFiles/cmTC_53b30.dir/test_mpi.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_53b30.dir/test_mpi.c.o -MF CMakeFiles/cmTC_53b30.dir/test_mpi.c.o.d -o CMakeFiles/cmTC_53b30.dir/test_mpi.c.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-gC07oL/test_mpi.c
+        Linking C executable cmTC_53b30
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53b30.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_53b30.dir/test_mpi.c.o -o cmTC_53b30  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-Ng8oPs"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-Ng8oPs"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-Ng8oPs'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b93a4/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b93a4.dir/build.make CMakeFiles/cmTC_b93a4.dir/build
+        Building CXX object CMakeFiles/cmTC_b93a4.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_b93a4.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_b93a4.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_b93a4.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-Ng8oPs/test_mpi.cpp
+        Linking CXX executable cmTC_b93a4
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b93a4.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b93a4.dir/test_mpi.cpp.o -o cmTC_b93a4  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-0KQm3z"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-0KQm3z"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-0KQm3z'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_94621/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_94621.dir/build.make CMakeFiles/cmTC_94621.dir/build
+        Building CXX object CMakeFiles/cmTC_94621.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_94621.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_94621.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_94621.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-0KQm3z/test_mpi.cpp
+        Linking CXX executable cmTC_94621
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94621.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_94621.dir/test_mpi.cpp.o -o cmTC_94621  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-tQUavN"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-tQUavN"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-tQUavN'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f454d/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f454d.dir/build.make CMakeFiles/cmTC_f454d.dir/build
+        Building C object CMakeFiles/cmTC_f454d.dir/test_mpi.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_f454d.dir/test_mpi.c.o -MF CMakeFiles/cmTC_f454d.dir/test_mpi.c.o.d -o CMakeFiles/cmTC_f454d.dir/test_mpi.c.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-tQUavN/test_mpi.c
+        Linking C executable cmTC_f454d
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f454d.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f454d.dir/test_mpi.c.o -o cmTC_f454d  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-CaEFfv"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-CaEFfv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-CaEFfv'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a0d5b/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a0d5b.dir/build.make CMakeFiles/cmTC_a0d5b.dir/build
+        Building CXX object CMakeFiles/cmTC_a0d5b.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_a0d5b.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_a0d5b.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_a0d5b.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-CaEFfv/test_mpi.cpp
+        Linking CXX executable cmTC_a0d5b
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0d5b.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a0d5b.dir/test_mpi.cpp.o -o cmTC_a0d5b  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-0jgRd8"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-0jgRd8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-0jgRd8'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_32107/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_32107.dir/build.make CMakeFiles/cmTC_32107.dir/build
+        Building CXX object CMakeFiles/cmTC_32107.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_32107.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_32107.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_32107.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-0jgRd8/test_mpi.cpp
+        Linking CXX executable cmTC_32107
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32107.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_32107.dir/test_mpi.cpp.o -o cmTC_32107  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-eWOfsB"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-eWOfsB"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-eWOfsB'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a7988/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a7988.dir/build.make CMakeFiles/cmTC_a7988.dir/build
+        Building C object CMakeFiles/cmTC_a7988.dir/test_mpi.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_a7988.dir/test_mpi.c.o -MF CMakeFiles/cmTC_a7988.dir/test_mpi.c.o.d -o CMakeFiles/cmTC_a7988.dir/test_mpi.c.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-eWOfsB/test_mpi.c
+        Linking C executable cmTC_a7988
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7988.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a7988.dir/test_mpi.c.o -o cmTC_a7988  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-L1Vkxv"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-L1Vkxv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-L1Vkxv'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_85ff4/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_85ff4.dir/build.make CMakeFiles/cmTC_85ff4.dir/build
+        Building CXX object CMakeFiles/cmTC_85ff4.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_85ff4.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_85ff4.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_85ff4.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-L1Vkxv/test_mpi.cpp
+        Linking CXX executable cmTC_85ff4
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85ff4.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_85ff4.dir/test_mpi.cpp.o -o cmTC_85ff4  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-YNWucG"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-YNWucG"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-YNWucG'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dd6e2/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_dd6e2.dir/build.make CMakeFiles/cmTC_dd6e2.dir/build
+        Building CXX object CMakeFiles/cmTC_dd6e2.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_dd6e2.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_dd6e2.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_dd6e2.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-YNWucG/test_mpi.cpp
+        Linking CXX executable cmTC_dd6e2
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd6e2.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_dd6e2.dir/test_mpi.cpp.o -o cmTC_dd6e2  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-kcwo8d"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-kcwo8d"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-kcwo8d'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2fc2d/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2fc2d.dir/build.make CMakeFiles/cmTC_2fc2d.dir/build
+        Building C object CMakeFiles/cmTC_2fc2d.dir/test_mpi.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_2fc2d.dir/test_mpi.c.o -MF CMakeFiles/cmTC_2fc2d.dir/test_mpi.c.o.d -o CMakeFiles/cmTC_2fc2d.dir/test_mpi.c.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-kcwo8d/test_mpi.c
+        Linking C executable cmTC_2fc2d
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fc2d.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2fc2d.dir/test_mpi.c.o -o cmTC_2fc2d  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-ZSrlNt"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-ZSrlNt"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-ZSrlNt'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6036d/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6036d.dir/build.make CMakeFiles/cmTC_6036d.dir/build
+        Building CXX object CMakeFiles/cmTC_6036d.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_6036d.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_6036d.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_6036d.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-ZSrlNt/test_mpi.cpp
+        Linking CXX executable cmTC_6036d
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6036d.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6036d.dir/test_mpi.cpp.o -o cmTC_6036d  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-08fmsS"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-08fmsS"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-08fmsS'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9a650/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_9a650.dir/build.make CMakeFiles/cmTC_9a650.dir/build
+        Building CXX object CMakeFiles/cmTC_9a650.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_9a650.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_9a650.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_9a650.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-08fmsS/test_mpi.cpp
+        Linking CXX executable cmTC_9a650
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a650.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_9a650.dir/test_mpi.cpp.o -o cmTC_9a650  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-bFVrlV"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-bFVrlV"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-bFVrlV'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_724b9/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_724b9.dir/build.make CMakeFiles/cmTC_724b9.dir/build
+        Building C object CMakeFiles/cmTC_724b9.dir/test_mpi.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_724b9.dir/test_mpi.c.o -MF CMakeFiles/cmTC_724b9.dir/test_mpi.c.o.d -o CMakeFiles/cmTC_724b9.dir/test_mpi.c.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-bFVrlV/test_mpi.c
+        Linking C executable cmTC_724b9
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_724b9.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_724b9.dir/test_mpi.c.o -o cmTC_724b9  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-djO8xM"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-djO8xM"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-djO8xM'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ed56b/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ed56b.dir/build.make CMakeFiles/cmTC_ed56b.dir/build
+        Building CXX object CMakeFiles/cmTC_ed56b.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_ed56b.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_ed56b.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_ed56b.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-djO8xM/test_mpi.cpp
+        Linking CXX executable cmTC_ed56b
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed56b.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ed56b.dir/test_mpi.cpp.o -o cmTC_ed56b  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-Bge7ba"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-Bge7ba"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-Bge7ba'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_29af6/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_29af6.dir/build.make CMakeFiles/cmTC_29af6.dir/build
+        Building CXX object CMakeFiles/cmTC_29af6.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_29af6.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_29af6.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_29af6.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-Bge7ba/test_mpi.cpp
+        Linking CXX executable cmTC_29af6
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29af6.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_29af6.dir/test_mpi.cpp.o -o cmTC_29af6  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:55 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-jPfaVc"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-jPfaVc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-jPfaVc'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b7456/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b7456.dir/build.make CMakeFiles/cmTC_b7456.dir/build
+        Building C object CMakeFiles/cmTC_b7456.dir/test_mpi.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_b7456.dir/test_mpi.c.o -MF CMakeFiles/cmTC_b7456.dir/test_mpi.c.o.d -o CMakeFiles/cmTC_b7456.dir/test_mpi.c.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-jPfaVc/test_mpi.c
+        Linking C executable cmTC_b7456
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7456.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b7456.dir/test_mpi.c.o -o cmTC_b7456  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:55 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-MN1Sty"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-MN1Sty"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-MN1Sty'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3a502/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3a502.dir/build.make CMakeFiles/cmTC_3a502.dir/build
+        Building CXX object CMakeFiles/cmTC_3a502.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_3a502.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_3a502.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_3a502.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-MN1Sty/test_mpi.cpp
+        Linking CXX executable cmTC_3a502
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a502.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3a502.dir/test_mpi.cpp.o -o cmTC_3a502  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:55 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-4gN2He"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-4gN2He"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-4gN2He'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_846a3/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_846a3.dir/build.make CMakeFiles/cmTC_846a3.dir/build
+        Building CXX object CMakeFiles/cmTC_846a3.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_846a3.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_846a3.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_846a3.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-4gN2He/test_mpi.cpp
+        Linking CXX executable cmTC_846a3
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_846a3.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_846a3.dir/test_mpi.cpp.o -o cmTC_846a3  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:55 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-ED5nzb"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-ED5nzb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-ED5nzb'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1da38/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1da38.dir/build.make CMakeFiles/cmTC_1da38.dir/build
+        Building C object CMakeFiles/cmTC_1da38.dir/test_mpi.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_1da38.dir/test_mpi.c.o -MF CMakeFiles/cmTC_1da38.dir/test_mpi.c.o.d -o CMakeFiles/cmTC_1da38.dir/test_mpi.c.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-ED5nzb/test_mpi.c
+        Linking C executable cmTC_1da38
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1da38.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1da38.dir/test_mpi.c.o -o cmTC_1da38  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:55 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-Pt1fGG"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-Pt1fGG"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-Pt1fGG'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d072a/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d072a.dir/build.make CMakeFiles/cmTC_d072a.dir/build
+        Building CXX object CMakeFiles/cmTC_d072a.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_d072a.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_d072a.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_d072a.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-Pt1fGG/test_mpi.cpp
+        Linking CXX executable cmTC_d072a
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d072a.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d072a.dir/test_mpi.cpp.o -o cmTC_d072a  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:55 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-7c9NoC"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-7c9NoC"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-7c9NoC'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_896f4/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_896f4.dir/build.make CMakeFiles/cmTC_896f4.dir/build
+        Building CXX object CMakeFiles/cmTC_896f4.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_896f4.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_896f4.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_896f4.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-7c9NoC/test_mpi.cpp
+        Linking CXX executable cmTC_896f4
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_896f4.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_896f4.dir/test_mpi.cpp.o -o cmTC_896f4  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:55 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-mQeJbM"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-mQeJbM"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-mQeJbM'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bd393/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bd393.dir/build.make CMakeFiles/cmTC_bd393.dir/build
+        Building C object CMakeFiles/cmTC_bd393.dir/test_mpi.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_bd393.dir/test_mpi.c.o -MF CMakeFiles/cmTC_bd393.dir/test_mpi.c.o.d -o CMakeFiles/cmTC_bd393.dir/test_mpi.c.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-mQeJbM/test_mpi.c
+        Linking C executable cmTC_bd393
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd393.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_bd393.dir/test_mpi.c.o -o cmTC_bd393  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:55 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-ubxKUB"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-ubxKUB"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-ubxKUB'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_774eb/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_774eb.dir/build.make CMakeFiles/cmTC_774eb.dir/build
+        Building CXX object CMakeFiles/cmTC_774eb.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_774eb.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_774eb.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_774eb.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-ubxKUB/test_mpi.cpp
+        Linking CXX executable cmTC_774eb
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_774eb.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_774eb.dir/test_mpi.cpp.o -o cmTC_774eb  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:55 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-Scthrw"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-Scthrw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-Scthrw'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fca10/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fca10.dir/build.make CMakeFiles/cmTC_fca10.dir/build
+        Building CXX object CMakeFiles/cmTC_fca10.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_fca10.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_fca10.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_fca10.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-Scthrw/test_mpi.cpp
+        Linking CXX executable cmTC_fca10
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fca10.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_fca10.dir/test_mpi.cpp.o -o cmTC_fca10  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:55 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-oummOa"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-oummOa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-oummOa'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a415f/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a415f.dir/build.make CMakeFiles/cmTC_a415f.dir/build
+        Building C object CMakeFiles/cmTC_a415f.dir/test_mpi.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_a415f.dir/test_mpi.c.o -MF CMakeFiles/cmTC_a415f.dir/test_mpi.c.o.d -o CMakeFiles/cmTC_a415f.dir/test_mpi.c.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-oummOa/test_mpi.c
+        Linking C executable cmTC_a415f
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a415f.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a415f.dir/test_mpi.c.o -o cmTC_a415f  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:55 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-FKy1vG"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-FKy1vG"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-FKy1vG'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1c64f/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1c64f.dir/build.make CMakeFiles/cmTC_1c64f.dir/build
+        Building CXX object CMakeFiles/cmTC_1c64f.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_1c64f.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_1c64f.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_1c64f.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-FKy1vG/test_mpi.cpp
+        Linking CXX executable cmTC_1c64f
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c64f.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1c64f.dir/test_mpi.cpp.o -o cmTC_1c64f  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:55 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-GstudB"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-GstudB"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-GstudB'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b6741/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b6741.dir/build.make CMakeFiles/cmTC_b6741.dir/build
+        Building CXX object CMakeFiles/cmTC_b6741.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_b6741.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_b6741.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_b6741.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-GstudB/test_mpi.cpp
+        Linking CXX executable cmTC_b6741
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6741.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b6741.dir/test_mpi.cpp.o -o cmTC_b6741  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:55 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-Y3OvA9"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-Y3OvA9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-Y3OvA9'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cb7f3/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cb7f3.dir/build.make CMakeFiles/cmTC_cb7f3.dir/build
+        Building C object CMakeFiles/cmTC_cb7f3.dir/test_mpi.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_cb7f3.dir/test_mpi.c.o -MF CMakeFiles/cmTC_cb7f3.dir/test_mpi.c.o.d -o CMakeFiles/cmTC_cb7f3.dir/test_mpi.c.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-Y3OvA9/test_mpi.c
+        Linking C executable cmTC_cb7f3
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb7f3.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_cb7f3.dir/test_mpi.c.o -o cmTC_cb7f3  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:55 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-CNT80x"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-CNT80x"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-CNT80x'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_95fa4/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_95fa4.dir/build.make CMakeFiles/cmTC_95fa4.dir/build
+        Building CXX object CMakeFiles/cmTC_95fa4.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_95fa4.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_95fa4.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_95fa4.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-CNT80x/test_mpi.cpp
+        Linking CXX executable cmTC_95fa4
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95fa4.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_95fa4.dir/test_mpi.cpp.o -o cmTC_95fa4  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:55 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-DVSLfi"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-DVSLfi"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-DVSLfi'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_81e3e/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_81e3e.dir/build.make CMakeFiles/cmTC_81e3e.dir/build
+        Building CXX object CMakeFiles/cmTC_81e3e.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_81e3e.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_81e3e.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_81e3e.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-DVSLfi/test_mpi.cpp
+        Linking CXX executable cmTC_81e3e
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81e3e.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_81e3e.dir/test_mpi.cpp.o -o cmTC_81e3e  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:55 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-NNi5dJ"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-NNi5dJ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-NNi5dJ'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b5eb4/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b5eb4.dir/build.make CMakeFiles/cmTC_b5eb4.dir/build
+        Building C object CMakeFiles/cmTC_b5eb4.dir/test_mpi.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_b5eb4.dir/test_mpi.c.o -MF CMakeFiles/cmTC_b5eb4.dir/test_mpi.c.o.d -o CMakeFiles/cmTC_b5eb4.dir/test_mpi.c.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-NNi5dJ/test_mpi.c
+        Linking C executable cmTC_b5eb4
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5eb4.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b5eb4.dir/test_mpi.c.o -o cmTC_b5eb4  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:55 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-9vrgK7"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-9vrgK7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-9vrgK7'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c8185/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c8185.dir/build.make CMakeFiles/cmTC_c8185.dir/build
+        Building CXX object CMakeFiles/cmTC_c8185.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_c8185.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_c8185.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_c8185.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-9vrgK7/test_mpi.cpp
+        Linking CXX executable cmTC_c8185
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8185.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c8185.dir/test_mpi.cpp.o -o cmTC_c8185  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:55 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-2zzAgL"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-2zzAgL"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-2zzAgL'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2d955/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2d955.dir/build.make CMakeFiles/cmTC_2d955.dir/build
+        Building CXX object CMakeFiles/cmTC_2d955.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_2d955.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_2d955.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_2d955.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-2zzAgL/test_mpi.cpp
+        Linking CXX executable cmTC_2d955
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d955.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2d955.dir/test_mpi.cpp.o -o cmTC_2d955  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-wZCYUg"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-wZCYUg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-wZCYUg'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ba380/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ba380.dir/build.make CMakeFiles/cmTC_ba380.dir/build
+        Building C object CMakeFiles/cmTC_ba380.dir/test_mpi.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_ba380.dir/test_mpi.c.o -MF CMakeFiles/cmTC_ba380.dir/test_mpi.c.o.d -o CMakeFiles/cmTC_ba380.dir/test_mpi.c.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-wZCYUg/test_mpi.c
+        Linking C executable cmTC_ba380
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba380.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ba380.dir/test_mpi.c.o -o cmTC_ba380  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-yCPjS2"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-yCPjS2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-yCPjS2'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cfca0/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cfca0.dir/build.make CMakeFiles/cmTC_cfca0.dir/build
+        Building CXX object CMakeFiles/cmTC_cfca0.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_cfca0.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_cfca0.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_cfca0.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-yCPjS2/test_mpi.cpp
+        Linking CXX executable cmTC_cfca0
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfca0.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_cfca0.dir/test_mpi.cpp.o -o cmTC_cfca0  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-aJ9Q3e"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-aJ9Q3e"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-aJ9Q3e'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d7700/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d7700.dir/build.make CMakeFiles/cmTC_d7700.dir/build
+        Building CXX object CMakeFiles/cmTC_d7700.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_d7700.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_d7700.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_d7700.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-aJ9Q3e/test_mpi.cpp
+        Linking CXX executable cmTC_d7700
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7700.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d7700.dir/test_mpi.cpp.o -o cmTC_d7700  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-ghFrg2"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-ghFrg2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-ghFrg2'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_79b58/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_79b58.dir/build.make CMakeFiles/cmTC_79b58.dir/build
+        Building C object CMakeFiles/cmTC_79b58.dir/test_mpi.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_79b58.dir/test_mpi.c.o -MF CMakeFiles/cmTC_79b58.dir/test_mpi.c.o.d -o CMakeFiles/cmTC_79b58.dir/test_mpi.c.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-ghFrg2/test_mpi.c
+        Linking C executable cmTC_79b58
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79b58.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_79b58.dir/test_mpi.c.o -o cmTC_79b58  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-8IdloT"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-8IdloT"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-8IdloT'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bb653/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bb653.dir/build.make CMakeFiles/cmTC_bb653.dir/build
+        Building CXX object CMakeFiles/cmTC_bb653.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_bb653.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_bb653.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_bb653.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-8IdloT/test_mpi.cpp
+        Linking CXX executable cmTC_bb653
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb653.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_bb653.dir/test_mpi.cpp.o -o cmTC_bb653  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-qAYS63"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-qAYS63"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-qAYS63'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e140b/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e140b.dir/build.make CMakeFiles/cmTC_e140b.dir/build
+        Building CXX object CMakeFiles/cmTC_e140b.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_e140b.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_e140b.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_e140b.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-qAYS63/test_mpi.cpp
+        Linking CXX executable cmTC_e140b
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e140b.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e140b.dir/test_mpi.cpp.o -o cmTC_e140b  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-6FV84s"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-6FV84s"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-6FV84s'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_133fd/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_133fd.dir/build.make CMakeFiles/cmTC_133fd.dir/build
+        Building C object CMakeFiles/cmTC_133fd.dir/test_mpi.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_133fd.dir/test_mpi.c.o -MF CMakeFiles/cmTC_133fd.dir/test_mpi.c.o.d -o CMakeFiles/cmTC_133fd.dir/test_mpi.c.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-6FV84s/test_mpi.c
+        Linking C executable cmTC_133fd
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_133fd.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_133fd.dir/test_mpi.c.o -o cmTC_133fd  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-QoEyJt"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-QoEyJt"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-QoEyJt'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_eff0f/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_eff0f.dir/build.make CMakeFiles/cmTC_eff0f.dir/build
+        Building CXX object CMakeFiles/cmTC_eff0f.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_eff0f.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_eff0f.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_eff0f.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-QoEyJt/test_mpi.cpp
+        Linking CXX executable cmTC_eff0f
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eff0f.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_eff0f.dir/test_mpi.cpp.o -o cmTC_eff0f  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-C6U2Ht"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-C6U2Ht"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-C6U2Ht'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fd7e1/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fd7e1.dir/build.make CMakeFiles/cmTC_fd7e1.dir/build
+        Building CXX object CMakeFiles/cmTC_fd7e1.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_fd7e1.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_fd7e1.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_fd7e1.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-C6U2Ht/test_mpi.cpp
+        Linking CXX executable cmTC_fd7e1
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd7e1.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_fd7e1.dir/test_mpi.cpp.o -o cmTC_fd7e1  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-5wGUtn"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-5wGUtn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-5wGUtn'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_673f7/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_673f7.dir/build.make CMakeFiles/cmTC_673f7.dir/build
+        Building C object CMakeFiles/cmTC_673f7.dir/test_mpi.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_673f7.dir/test_mpi.c.o -MF CMakeFiles/cmTC_673f7.dir/test_mpi.c.o.d -o CMakeFiles/cmTC_673f7.dir/test_mpi.c.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-5wGUtn/test_mpi.c
+        Linking C executable cmTC_673f7
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_673f7.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_673f7.dir/test_mpi.c.o -o cmTC_673f7  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-CidF4p"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-CidF4p"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-CidF4p'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a82af/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a82af.dir/build.make CMakeFiles/cmTC_a82af.dir/build
+        Building CXX object CMakeFiles/cmTC_a82af.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_a82af.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_a82af.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_a82af.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-CidF4p/test_mpi.cpp
+        Linking CXX executable cmTC_a82af
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a82af.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a82af.dir/test_mpi.cpp.o -o cmTC_a82af  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-ZL9h7e"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-ZL9h7e"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-ZL9h7e'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_395e7/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_395e7.dir/build.make CMakeFiles/cmTC_395e7.dir/build
+        Building CXX object CMakeFiles/cmTC_395e7.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_395e7.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_395e7.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_395e7.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-ZL9h7e/test_mpi.cpp
+        Linking CXX executable cmTC_395e7
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_395e7.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_395e7.dir/test_mpi.cpp.o -o cmTC_395e7  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-8nNlUp"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-8nNlUp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-8nNlUp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_297dc/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_297dc.dir/build.make CMakeFiles/cmTC_297dc.dir/build
+        Building C object CMakeFiles/cmTC_297dc.dir/test_mpi.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_297dc.dir/test_mpi.c.o -MF CMakeFiles/cmTC_297dc.dir/test_mpi.c.o.d -o CMakeFiles/cmTC_297dc.dir/test_mpi.c.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-8nNlUp/test_mpi.c
+        Linking C executable cmTC_297dc
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_297dc.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_297dc.dir/test_mpi.c.o -o cmTC_297dc  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-I4eWLs"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-I4eWLs"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-I4eWLs'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f2b10/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f2b10.dir/build.make CMakeFiles/cmTC_f2b10.dir/build
+        Building CXX object CMakeFiles/cmTC_f2b10.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_f2b10.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_f2b10.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_f2b10.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-I4eWLs/test_mpi.cpp
+        Linking CXX executable cmTC_f2b10
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2b10.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f2b10.dir/test_mpi.cpp.o -o cmTC_f2b10  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-4xt3Vl"
+      binary: "/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-4xt3Vl"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-4xt3Vl'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e2723/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e2723.dir/build.make CMakeFiles/cmTC_e2723.dir/build
+        Building CXX object CMakeFiles/cmTC_e2723.dir/test_mpi.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -MD -MT CMakeFiles/cmTC_e2723.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_e2723.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_e2723.dir/test_mpi.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/build/CMakeFiles/CMakeScratch/TryCompile-4xt3Vl/test_mpi.cpp
+        Linking CXX executable cmTC_e2723
+        /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2723.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e2723.dir/test_mpi.cpp.o -o cmTC_e2723  /opt/homebrew/Cellar/open-mpi/5.0.3_1/lib/libmpi.dylib
+        
+      exitCode: 0
+...

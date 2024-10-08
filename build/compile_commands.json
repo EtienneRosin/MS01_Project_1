@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/Users/etienne/Documents/Developer/MS01_Project_1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/etienne/Documents/Developer/MS01_Project_1/utils -I/Users/etienne/Documents/Developer/MS01_Project_1/solvers -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -O2 -o CMakeFiles/main.dir/main.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/main.cpp",
+  "file": "/Users/etienne/Documents/Developer/MS01_Project_1/main.cpp",
+  "output": "CMakeFiles/main.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/etienne/Documents/Developer/MS01_Project_1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/etienne/Documents/Developer/MS01_Project_1/utils -I/Users/etienne/Documents/Developer/MS01_Project_1/solvers -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -O2 -o CMakeFiles/main.dir/utils/Vector.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/utils/Vector.cpp",
+  "file": "/Users/etienne/Documents/Developer/MS01_Project_1/utils/Vector.cpp",
+  "output": "CMakeFiles/main.dir/utils/Vector.cpp.o"
+},
+{
+  "directory": "/Users/etienne/Documents/Developer/MS01_Project_1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/etienne/Documents/Developer/MS01_Project_1/utils -I/Users/etienne/Documents/Developer/MS01_Project_1/solvers -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -O2 -o CMakeFiles/main.dir/solvers/jacobi_MPI.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/solvers/jacobi_MPI.cpp",
+  "file": "/Users/etienne/Documents/Developer/MS01_Project_1/solvers/jacobi_MPI.cpp",
+  "output": "CMakeFiles/main.dir/solvers/jacobi_MPI.cpp.o"
+},
+{
+  "directory": "/Users/etienne/Documents/Developer/MS01_Project_1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/etienne/Documents/Developer/MS01_Project_1/utils -I/Users/etienne/Documents/Developer/MS01_Project_1/solvers -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -O2 -o CMakeFiles/main.dir/solvers/jacobi_seq.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/solvers/jacobi_seq.cpp",
+  "file": "/Users/etienne/Documents/Developer/MS01_Project_1/solvers/jacobi_seq.cpp",
+  "output": "CMakeFiles/main.dir/solvers/jacobi_seq.cpp.o"
+},
+{
+  "directory": "/Users/etienne/Documents/Developer/MS01_Project_1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/etienne/Documents/Developer/MS01_Project_1/utils -I/Users/etienne/Documents/Developer/MS01_Project_1/solvers -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -O2 -o CMakeFiles/main.dir/solvers/jacobi_sequential.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/solvers/jacobi_sequential.cpp",
+  "file": "/Users/etienne/Documents/Developer/MS01_Project_1/solvers/jacobi_sequential.cpp",
+  "output": "CMakeFiles/main.dir/solvers/jacobi_sequential.cpp.o"
+},
+{
+  "directory": "/Users/etienne/Documents/Developer/MS01_Project_1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/etienne/Documents/Developer/MS01_Project_1/utils -I/Users/etienne/Documents/Developer/MS01_Project_1/solvers -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -O2 -o CMakeFiles/jacobi_sequential_asymptotic_accuracy.dir/study_cases/jacobi_sequential_asymptotic_accuracy/main.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/study_cases/jacobi_sequential_asymptotic_accuracy/main.cpp",
+  "file": "/Users/etienne/Documents/Developer/MS01_Project_1/study_cases/jacobi_sequential_asymptotic_accuracy/main.cpp",
+  "output": "CMakeFiles/jacobi_sequential_asymptotic_accuracy.dir/study_cases/jacobi_sequential_asymptotic_accuracy/main.cpp.o"
+},
+{
+  "directory": "/Users/etienne/Documents/Developer/MS01_Project_1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/etienne/Documents/Developer/MS01_Project_1/utils -I/Users/etienne/Documents/Developer/MS01_Project_1/solvers -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -O2 -o CMakeFiles/jacobi_sequential_asymptotic_accuracy.dir/utils/Vector.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/utils/Vector.cpp",
+  "file": "/Users/etienne/Documents/Developer/MS01_Project_1/utils/Vector.cpp",
+  "output": "CMakeFiles/jacobi_sequential_asymptotic_accuracy.dir/utils/Vector.cpp.o"
+},
+{
+  "directory": "/Users/etienne/Documents/Developer/MS01_Project_1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/etienne/Documents/Developer/MS01_Project_1/utils -I/Users/etienne/Documents/Developer/MS01_Project_1/solvers -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -O2 -o CMakeFiles/jacobi_sequential_asymptotic_accuracy.dir/solvers/jacobi_MPI.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/solvers/jacobi_MPI.cpp",
+  "file": "/Users/etienne/Documents/Developer/MS01_Project_1/solvers/jacobi_MPI.cpp",
+  "output": "CMakeFiles/jacobi_sequential_asymptotic_accuracy.dir/solvers/jacobi_MPI.cpp.o"
+},
+{
+  "directory": "/Users/etienne/Documents/Developer/MS01_Project_1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/etienne/Documents/Developer/MS01_Project_1/utils -I/Users/etienne/Documents/Developer/MS01_Project_1/solvers -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -O2 -o CMakeFiles/jacobi_sequential_asymptotic_accuracy.dir/solvers/jacobi_seq.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/solvers/jacobi_seq.cpp",
+  "file": "/Users/etienne/Documents/Developer/MS01_Project_1/solvers/jacobi_seq.cpp",
+  "output": "CMakeFiles/jacobi_sequential_asymptotic_accuracy.dir/solvers/jacobi_seq.cpp.o"
+},
+{
+  "directory": "/Users/etienne/Documents/Developer/MS01_Project_1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/etienne/Documents/Developer/MS01_Project_1/utils -I/Users/etienne/Documents/Developer/MS01_Project_1/solvers -isystem /opt/homebrew/Cellar/open-mpi/5.0.3_1/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -O2 -o CMakeFiles/jacobi_sequential_asymptotic_accuracy.dir/solvers/jacobi_sequential.cpp.o -c /Users/etienne/Documents/Developer/MS01_Project_1/solvers/jacobi_sequential.cpp",
+  "file": "/Users/etienne/Documents/Developer/MS01_Project_1/solvers/jacobi_sequential.cpp",
+  "output": "CMakeFiles/jacobi_sequential_asymptotic_accuracy.dir/solvers/jacobi_sequential.cpp.o"
+}
+]

@@ -1,0 +1,7 @@
+# *.tmp # tous les fichiers terminant par '.tmp' seront ignorés
+
+##!important.tmp # sauf le fichier important.tmp, qui lui sera commité
+
+/results
+/visualization
+/attempts
